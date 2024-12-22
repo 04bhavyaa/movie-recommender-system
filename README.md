@@ -1,8 +1,6 @@
 ## Movie Recommendation System
-
-* We need to create a content based recommendation system. (We'll create tags. So not keeping numerical columns for now.)
-* Let's remove unnecessary columns.
-* For this we'll analyze if a column will be helpful to create tags for movies or not.
-* Using right now: genres, id, keywords, title, overview, cast, crew
-* Removing all other!
-* future enhancements: release_date, revenue, spoken_languages, vote_average, vote_count
+* Dataset Link: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv
+* Basic Content Based Recommendation System using Cosine Similarity
+* Key steps: Data Loading, Preprocessing, Vectorization, Stemming, Cosine Similarity, Model Building, Streamlit Application
+Image:
+![image](https://github.com/user-attachments/assets/ad43be68-782d-459c-949c-02a3407461ef)
